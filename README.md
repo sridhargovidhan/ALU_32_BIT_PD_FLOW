@@ -71,30 +71,39 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 • add slow.lib with a label Slow or any identifier of your own.
 
 ### Fig.1 Add slow Library set
+<img width="942" height="602" alt="image" src="https://github.com/user-attachments/assets/b58726af-61fd-4f17-b3ec-2e1c17ea9442" />
 
 • add fast.lib with a label Fast or any identifier of your own.
 
 ### Fig.2 Add fast Library set
+<img width="942" height="602" alt="image" src="https://github.com/user-attachments/assets/22dc8a5e-b2f3-4b7a-84f8-c8cca9f68930" />
+
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
 
 ### Fig.3 Add RC corner
+<img width="582" height="475" alt="image" src="https://github.com/user-attachments/assets/059c8342-fe39-4df2-8403-11590c4c55bf" />
+
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
+<img width="651" height="696" alt="image" src="https://github.com/user-attachments/assets/203f6aa1-5ddb-4a1b-8ac1-8028752997f6" />
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
 
 ### Fig.5 SDC Constraint file
+<img width="651" height="696" alt="image" src="https://github.com/user-attachments/assets/331cfb82-6f27-4f00-b575-2569ae53bbb3" />
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
+<img width="362" height="187" alt="image" src="https://github.com/user-attachments/assets/39426a49-cbbb-4f93-9c1e-b179f84af268" />
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
+<img width="829" height="504" alt="image" src="https://github.com/user-attachments/assets/d9b0456e-adb4-4310-a467-6fe516d20a41" />
 
 • Once all the process is done, Click on “Save&Close” and save the script generated with any name of your choice. 
 
@@ -109,6 +118,9 @@ In the Import Design window click the save option to save the Default.globals fi
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
 
 ### Fig.8 Core area
+<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/93389132-b7f2-409e-91cd-8e316e2e6ceb" />
+
+
 • The internal area of the box is called “Core Area”. 
 
 • The horizontal lines running along the width of Core are “Standard Cell Rows”. Every alternate of them are marked indicating alternate VDD and VSS rows. 
@@ -173,8 +185,13 @@ Moreover, the cells that would be placed inside the core area are expected to ha
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/5d53aee9-08a9-4d09-9515-8a650ecadba9" />
+<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/f99b0052-4488-478d-9071-25c7765640dc" />
+
 
 ### Fig. 10 Power plan 
+<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/a6dc9662-b619-4e65-879c-2543459c8bb4" />
+
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
 
