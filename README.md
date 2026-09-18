@@ -118,8 +118,7 @@ In the Import Design window click the save option to save the Default.globals fi
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
 
 ### Fig.8 Core area
-<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/93389132-b7f2-409e-91cd-8e316e2e6ceb" />
-
+<img width="1724" height="912" alt="image" src="https://github.com/user-attachments/assets/572011cd-70da-45eb-a3a3-1f4987da77b3" />
 
 • The internal area of the box is called “Core Area”. 
 
@@ -185,13 +184,11 @@ Moreover, the cells that would be placed inside the core area are expected to ha
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
-<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/5d53aee9-08a9-4d09-9515-8a650ecadba9" />
-<img width="2176" height="1152" alt="image" src="https://github.com/user-attachments/assets/f99b0052-4488-478d-9071-25c7765640dc" />
-
+<img width="1724" height="912" alt="image" src="https://github.com/user-attachments/assets/24dbc08f-8f58-4bc9-b0ee-80f268d1aff9" />
+<img width="1724" height="912" alt="image" src="https://github.com/user-attachments/assets/3054a588-68cd-4ed2-9f41-fc6a02484276" />
 
 ### Fig. 10 Power plan 
-<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/a6dc9662-b619-4e65-879c-2543459c8bb4" />
-
+<img width="1721" height="914" alt="image" src="https://github.com/user-attachments/assets/b0912ff7-ae7a-4ed4-9577-4c5e1cac9400" />
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
 
